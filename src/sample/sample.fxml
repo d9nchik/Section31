@@ -1,8 +1,27 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane styleClass="root" stylesheets="/sample/myStyle.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <center>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="5.0">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number1" />
+         <TextField fx:id="tfNumber1" />
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number2" />
+         <TextField fx:id="tfNumber2" />
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result" />
+         <TextField fx:id="tfResult" />
+      </HBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <Button mnemonicParsing="false" onAction="#addButtonAction" text="Add" />
+         <Button mnemonicParsing="false" onAction="#subtractButtonAction" text="Subtract" />
+         <Button mnemonicParsing="false" onAction="#multiplyButtonAction" text="Multiply" />
+         <Button mnemonicParsing="false" onAction="#divideButtonAction" text="Divide" />
+      </HBox>
+   </bottom>
+</BorderPane>

@@ -22,3 +22,7 @@
     -fx-fill: green;
     -fx-stroke: green;
 }
+
+.root{
+    -fx-background-color: bisque;
+}
