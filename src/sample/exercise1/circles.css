@@ -14,7 +14,7 @@
 }
 
 .blackRectangle{
-    /*
-    TODO: add style for rectangle
-     */
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-padding: 10;
 }
