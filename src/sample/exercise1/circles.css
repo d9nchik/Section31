@@ -1,0 +1,20 @@
+.whiteCircle{
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+#redCircle{
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+
+#blackCircle{
+    -fx-fill: black;
+    -fx-stroke: black;
+}
+
+.blackRectangle{
+    /*
+    TODO: add style for rectangle
+     */
+}
