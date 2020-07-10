@@ -1,0 +1,7 @@
+#pane{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-background-color: aquamarine;
+}
