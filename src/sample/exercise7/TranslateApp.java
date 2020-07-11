@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RotateApp extends Application {
+public class TranslateApp extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -16,9 +16,9 @@ public class RotateApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("rotate.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("translate.fxml"));
 
-        primaryStage.setTitle("Exercise 5");
+        primaryStage.setTitle("Exercise 4");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
