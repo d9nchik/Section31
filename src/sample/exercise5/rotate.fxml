@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="597.0" stylesheets="/sample/exercise4/form.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.exercise5.RotateController">
+   <bottom>
+       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Angle:" />
+           <TextField fx:id="angle" onAction="#rotateCylinder" prefColumnCount="3" text="0" />
+           <Button mnemonicParsing="false" onAction="#rotateCylinder" text="Rotate" />
+       </HBox>
+   </bottom>
+   <center>
+       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <Ellipse fx:id="cylinder" fill="DODGERBLUE" radiusX="123.0" radiusY="46.0" stroke="BLACK" strokeType="INSIDE" />
+       </StackPane>
+   </center>
+</BorderPane>

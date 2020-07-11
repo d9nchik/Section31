@@ -6,3 +6,7 @@ Rectangle{
 BorderPane{
     -fx-background-color: antiquewhite;
 }
+Ellipse{
+    -fx-fill: transparent;
+    -fx-stroke: black;
+}
