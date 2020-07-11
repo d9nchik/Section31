@@ -1,0 +1,8 @@
+HBox{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+    -fx-background-color: aquamarine;
+}
