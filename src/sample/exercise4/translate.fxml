@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:controller="sample.exercise4.TranslateController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="597.0" stylesheets="/sample/exercise4/form.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="x:" />
+           <TextField prefColumnCount="2" text="0" fx:id="x" />
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="y:" />
+           <TextField fx:id="y" prefColumnCount="2" text="0" />
+           <Button mnemonicParsing="false" onAction="#translateSquare" text="Translate" />
+       </HBox>
+   </bottom>
+   <center>
+       <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <Rectangle fx:id="square" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" stroke="BLACK" strokeType="INSIDE" width="82.0" />
+       </Pane>
+   </center>
+</BorderPane>

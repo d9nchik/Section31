@@ -1,0 +1,8 @@
+Rectangle{
+    -fx-fill: #a19aff;
+    -fx-stroke: black;
+}
+
+BorderPane{
+    -fx-background-color: antiquewhite;
+}
