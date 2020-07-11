@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="597.0" stylesheets="/sample/exercise6/form.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.exercise8.ScaleController">
+   <bottom>
+       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scale factor for x: " />
+         <TextField onAction="#scaleCylinder" prefColumnCount="3" text="1" fx:id="x" />
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="y:" />
+           <TextField fx:id="y" onAction="#scaleCylinder" prefColumnCount="3" text="1" />
+           <Button mnemonicParsing="false" onAction="#scaleCylinder" text="Scale" />
+       </HBox>
+   </bottom>
+   <center>
+       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <Ellipse fx:id="cylinder" fill="DODGERBLUE" radiusX="123.0" radiusY="46.0" stroke="BLACK" strokeType="INSIDE" />
+       </StackPane>
+   </center>
+</BorderPane>
