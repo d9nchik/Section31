@@ -1,9 +1,8 @@
-package sample.exercise5;
+package sample.exercise7;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.shape.Ellipse;
-import javafx.scene.shape.Rectangle;
 
 
 public class RotateController {

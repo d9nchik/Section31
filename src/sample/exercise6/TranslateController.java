@@ -1,4 +1,4 @@
-package sample.exercise4;
+package sample.exercise6;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
