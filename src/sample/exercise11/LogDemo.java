@@ -1,4 +1,4 @@
-package sample.exrcise11;
+package sample.exercise11;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
