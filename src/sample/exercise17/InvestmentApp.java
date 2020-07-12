@@ -1,0 +1,26 @@
+package sample.exercise17;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class InvestmentApp extends Application {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+        Parent pane = FXMLLoader.load(getClass().getResource("investment.fxml"));
+
+        Scene scene = new Scene(pane);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Exercise 17");
+        primaryStage.show();
+    }
+}
