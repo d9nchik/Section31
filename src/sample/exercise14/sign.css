@@ -1,0 +1,13 @@
+Text{
+    -fx-fill: white;
+    -fx-font-family: monospace;
+    -fx-font-size: 30;
+}
+
+Polygon{
+    -fx-fill: red;
+}
+
+StackPane{
+    -fx-padding: 10;
+}
