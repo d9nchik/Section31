@@ -17,9 +17,9 @@ public class QuadraricDemo extends Application {
     @Override
     public void start(Stage primaryStage) {
         Polyline polyline = new Polyline();
-        for (double angle = -180; angle <= 180; angle++) {
+        for (double x = -180; x <= 180; x++) {
             polyline.getPoints().addAll(
-                    angle, -(angle*angle)/10_000);
+                    x, -(x*x)/10_000);
         }
         polyline.setTranslateY(20);
         polyline.setTranslateX(200);
