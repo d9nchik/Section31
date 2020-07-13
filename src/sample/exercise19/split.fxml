@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal">
+    <SplitPane dividerPositions="0.5" prefHeight="400.0" prefWidth="600.0">
+        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <Circle fill="WHITE" layoutX="148.0" layoutY="98.0" radius="50.0" stroke="BLACK"
+                        strokeType="INSIDE"/>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="123.0"
+                           layoutY="73.0" stroke="BLACK" strokeType="INSIDE" width="50.0"/>
+            </AnchorPane>
+        </SplitPane>
+        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <Arc fill="WHITE" layoutX="162.0" layoutY="98.0" length="90.0" radiusX="50.0" radiusY="50.0"
+                     startAngle="90.0" stroke="BLACK" strokeType="INSIDE"/>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <Ellipse fill="WHITE" layoutX="148.0" layoutY="98.0" radiusX="100.0" radiusY="50.0"
+                         stroke="BLACK" strokeType="INSIDE"/>
+            </AnchorPane>
+        </SplitPane>
+    </SplitPane>
+</Pane>
